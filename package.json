@@ -1,0 +1,29 @@
+{
+  "name": "secretdinner",
+  "version": "1.0.0",
+  "description": "Projeto de Api do Jantar Secreto",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandabonfimm/secretdinner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandabonfimm/secretdinner/issues"
+  },
+  "homepage": "https://github.com/fernandabonfimm/secretdinner#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.5"
+  }
+}
